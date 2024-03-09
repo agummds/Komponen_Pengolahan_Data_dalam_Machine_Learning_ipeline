@@ -10,3 +10,6 @@ Tujuan dari latihan ini adalah membuat tahapan pengolahan data sederhana dengan 
 
 ## Repository Resource:
 ``git clone https://github.com/dicodingacademy/a443-MLOps-ML-Pipeline.git``
+
+## Link Google Colab:
+ttps://colab.research.google.com/drive/1kySyaIQZ_FAADRwTDjtoY8JvVNaIn5N5?usp=sharing (tambahkan h diawal ya)

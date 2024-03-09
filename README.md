@@ -1,0 +1,2 @@
+# Komponen_Pengolahan_Data_dalam_Machine_Learning_ipeline
+Pengolahan Data dalam Machine Learning Pipeline

@@ -1,4 +1,4 @@
-# Komponen_Pengolahan_Data_dalam_Machine_Learning_ipeline
+# Komponen_Pengolahan_Data_dalam_Machine_Learning_Pipeline
 Pengolahan Data dalam Machine Learning Pipeline
 
 Tujuan dari latihan ini adalah membuat tahapan pengolahan data sederhana dengan memanfaatkan berbagai tool yang disediakan oleh TFX. Tahapan pengolahan data ini terdiri dari beberapa proses seperti berikut.

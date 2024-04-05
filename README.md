@@ -26,3 +26,19 @@ Berdasarkan workload pada server, model serving dapat dibagi menjadi dua, yaitu 
 
 ## Link Google Collab:
 ttps://colab.research.google.com/drive/1GaJKY1eSgekWUek9HUqvFahVaq3FBScX?usp=sharing (tambahkan h diawal ya)
+
+# Submission 1: Machine Learning Pipeline - Sentiment Tweet Review
+Nama: Agum Medisa
+
+Username dicoding: agum_medisa
+
+
+| | Deskripsi |
+| ----------- | ----------- |
+| Dataset | Sentiment Tweet Review|
+| Masalah | Di media sosial terutama tweeter, banyaks ekali cuitan orang-orang di sana, terutama hal yang mengandung sentiment, Namun, menganalisis tweet ini secara manual dapat memakan waktu dan rentan terhadap bias. Tantangannya adalah mengotomatiskan proses mengklasifikasikan tweet ini sebagai positif atau negatif, yang dapat membantu para pencari data untuk memudahkan mereka dalam menganalisis |
+| Solusi machine learning | Melalui masalah yang ada, pendekatan _machine learning_ akan sangat membantu untuk mengklasifikasikan sentiment yang berbasis teks. _Machine learning_, terutama _deep learning_ memiliki kemampuan yang baik dalam memproses data teks dan memberikan tingkat akurasi yang tinggi. Sehingga cocok digunakan untuk kasus ini. |
+| Metode pengolahan | Data awal sentiment tweet akan dipisah menjadi data pelatihan dan data evaluasi dengan rasio 80:20, kemudian data akan melalui tahapan validasi untuk analisa dan menemukan anomali pada data. Tahap selanjutnya data akan diproses agar siap untuk masuk kedalam pelatihan. Setelah pelatihan maka akan dimasukkan juga ke dalam pelatihan komponen tuner selesai model akan di evaluasi dan di dikirim pada _endpoint_ dimana model siap dipakai. |
+| Arsitektur model | Arsitektur yang digunakan cukup sederhana terdiri dari _layer Embedding_ dan satu _layer Dense_ sebagai _hidden layer_, kemudian fungsi aktivasi pada _output layer_ dan dalam kasus ini saya adalah _binary classification_.|
+| Metrik evaluasi | Metrik evaluasi yang digunakan yaitu metrik klasifikasi seperti ExampleCount, AUC, FalsePositives, TruePositives, FalseNegatives, TrueNegatives, dan BinaryAccuracy. |
+| Performa model | Evaluasi model diperoleh yaitu AUC sebesar 0.481, true_negatives besar 31320, true_positives sebesar 0. Kemudian example_count 201,  dan loss: 0.2141 - binary_accuracy: 0.9406 - val_loss: 0.2023 - val_binary_accuracy: 0.9359 serta Best val_binary_accuracy So Far: 0.9468749761581421. Performa model dapat ditingkatkan lebih baik lagi, bisa dari segi data ataupun pemrosesan data yang lebih baik lagi. |

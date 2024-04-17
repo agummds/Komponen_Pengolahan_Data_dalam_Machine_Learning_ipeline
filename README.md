@@ -1,4 +1,5 @@
 # Komponen Pengolahan Data dalam Machine Learning Pipeline
+![image](https://4.bp.blogspot.com/-RoHLzCOLsnI/XXxMGF8p5hI/AAAAAAAABwA/e0AVdFEPx1sePqCwNvsouch794SVavhxACK4BGAYYCw/s1600/Screen%2BShot%2B2019-09-13%2Bat%2B10.09.18%2BPM.png)
 Pengolahan Data dalam Machine Learning Pipeline
 
 Tujuan dari latihan ini adalah membuat tahapan pengolahan data sederhana dengan memanfaatkan berbagai tool yang disediakan oleh TFX. Tahapan pengolahan data ini terdiri dari beberapa proses seperti berikut.
@@ -15,6 +16,7 @@ Tujuan dari latihan ini adalah membuat tahapan pengolahan data sederhana dengan 
 ttps://colab.research.google.com/drive/1kySyaIQZ_FAADRwTDjtoY8JvVNaIn5N5?usp=sharing (tambahkan h diawal ya)
 
 #  Membuat Model Serving Menggunakan Flask
+![image](https://i.pinimg.com/originals/fe/ab/58/feab584a857048165f3d1d8a84014733.png)
 Flask merupakan sebuah micro web framework yang ditulis dalam bahasa Python. Ia menyediakan berbagai tools dan library yang dapat digunakan untuk membuat web application (web app).
 
 Model serving merupakan sebuah proses untuk menjalankan model machine learning di sebuah server (cloud atau on premises) yang dapat diakses melalui API endpoint.
@@ -26,6 +28,24 @@ Berdasarkan workload pada server, model serving dapat dibagi menjadi dua, yaitu 
 
 ## Link Google Collab:
 ttps://colab.research.google.com/drive/1GaJKY1eSgekWUek9HUqvFahVaq3FBScX?usp=sharing (tambahkan h diawal ya)
+
+# Python Clean Code
+![image](https://www.developernation.net/static/998a7c435743d135266ab2a5f36a6dea/4c822/clean-code_COVER.jpg)
+
+Prinsip clean code merupakan salah satu ketentuan standar dalam penulisan kode yang berkualitas di industri. Ia mencakup keseluruhan prinsip dan aturan yang dapat memastikan kode bersifat efisien, readable, reliable, dan maintainable. Prinsip ini tentunya akan sangat bermanfaat jika diterapkan dalam pengembangan sistem machine learning.
+
+## Tips dalam Menerapkan Prinsip Clean Code
+Berdasarkan ketentuan yang sebelumnya kita bahas, berikut beberapa tips dalam menerapkan prinsip clean code.
+<ul>
+<li>Mengikuti style guide standar.</li>
+<li>Menerapkan modular code.</li>
+<li>Melakukan refactoring terhadap kode yang sebelumnya telah dibuat.</li>
+<li>Memastikan kode yang ditulis bersifat efisien.</li>
+<li>Menambahkan dokumentasi pada suatu kode untuk meningkatkan readability.</li>
+<li>Menggunakan code formatter dan linter. </li>
+</ul>
+
+
 
 # Submission 1: Machine Learning Pipeline - Sentiment Tweet Review
 Nama: Agum Medisa
@@ -62,3 +82,4 @@ Username dicoding: agum_medisa
 | Opsi Deployment | Di sini saya menggunakan cloudeka untuk mendeploy modelnya |
 | Web App | [Tweer Sentiment](http://103.190.215.83:8501/v1/models/sentiment-review/metadata) |
 | Monitoring | Di sini saya menggunakan prometherus dan grafana yang sudah terintegrasi dengan grafana dashboard|
+

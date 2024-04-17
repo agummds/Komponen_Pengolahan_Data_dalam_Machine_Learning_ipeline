@@ -44,7 +44,7 @@ Username dicoding: agum_medisa
 | Performa model | Evaluasi model diperoleh yaitu AUC sebesar 0.481, true_negatives besar 31320, true_positives sebesar 0. Kemudian example_count 201,  dan loss: 0.2141 - binary_accuracy: 0.9406 - val_loss: 0.2023 - val_binary_accuracy: 0.9359 serta Best val_binary_accuracy So Far: 0.9468749761581421. Performa model dapat ditingkatkan lebih baik lagi, bisa dari segi data ataupun pemrosesan data yang lebih baik lagi. |
 
 
-# Submission Final: Machine Learning Pipeline - Sentiment Tweet Review
+# Submission Final: Proyek Pengembangan dan Pengoperasian Sistem Machine Learning
 Nama: Agum Medisa
 
 Username dicoding: agum_medisa
